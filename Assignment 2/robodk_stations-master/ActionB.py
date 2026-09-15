@@ -86,7 +86,7 @@ def HomeToMazzerScaleLockLeverRightTop():
     T1 = Translation_matrix(0,0,0)
     MSLLRtMSLLRR = R1 + T1
 
-    heta = (np.pi/180)*-50 
+    theta = (np.pi/180)*-50
     R2 = Rotational_matrix_z(theta)
     T2 = Translation_matrix(0, 0, 0)
     TCPtMT_np = R2 + T2
@@ -135,7 +135,7 @@ def SlideInXDirectionAcrossLock():
     T1 = Translation_matrix(0,0,0)
     MSLLRtMSLLRR = R1 + T1
 
-    heta = (np.pi/180)*-50 
+    theta = (np.pi/180)*-50
     R2 = Rotational_matrix_z(theta)
     T2 = Translation_matrix(0, 0, 0)
     TCPtMT_np = R2 + T2
@@ -180,7 +180,7 @@ def SlideInzDirectionAcrossLock():
     T1 = Translation_matrix(0,0,0)
     MSLLRtMSLLRR = R1 + T1
 
-    heta = (np.pi/180)*-50 
+    theta = (np.pi/180)*-50
     R2 = Rotational_matrix_z(theta)
     T2 = Translation_matrix(0, 0, 0)
     TCPtMT_np = R2 + T2

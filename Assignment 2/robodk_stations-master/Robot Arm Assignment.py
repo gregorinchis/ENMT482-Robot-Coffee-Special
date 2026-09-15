@@ -16,7 +16,7 @@ if Actions[0] == 1:
     HomeToMazzerScaleTop()
     MazzerScaleTopToMazzerScale()
     MazzerScaleToHome()
-tls.rancilio_tool_detach_r_ati()
+    tls.rancilio_tool_detach_r_ati()
 if Actions[1] == 1:
     #Action B
     HomeToMazzerScaleLockLeverRightTop()
