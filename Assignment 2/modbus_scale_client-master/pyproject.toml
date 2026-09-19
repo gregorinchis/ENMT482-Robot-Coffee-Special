@@ -1,0 +1,43 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools >= 80",
+    "setuptools-scm >= 8",
+]
+
+[project]
+authors = [
+    {name = "Rodney Elliott", email = "rodney.elliott@canterbury.ac.nz"},
+]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "pyModbusTCP == 0.2.1",
+]
+description = "Weigh scale Modbus Ethernet client"
+dynamic = ["version"]
+keywords = [
+    "Modbus",
+    "Raspberry Pi",
+    "Scale",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE.md"]
+name = "modbus-scale-client"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://gitlab.com/uc_mech_wing/robotics_control_lab/uc-02-2024/modbus_scale_client"
+Issues = "https://gitlab.com/uc_mech_wing/robotics_control_lab/uc-02-2024/modbus_scale_client/-/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.setuptools_scm]
+
