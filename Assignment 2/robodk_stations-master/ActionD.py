@@ -341,7 +341,7 @@ def dosing_action():
 
     RDK.ShowMessage("Value = %f" % value)
     start = np.array([-84.7536, -10.4504])
-    end = np.array([-62.484, 58.2076])
+    end = np.array([-61.4586, 59.2892])
     radius = 80.0
     point_count = 10
 
@@ -367,7 +367,7 @@ def dosing_action():
 
     x_diff = -(x_values - -78.3) 
     y_diff = y_values - -9.65464             
-    angle = tuple(range(5, 65))
+    angle = tuple(range(5, 66))
     i = 0
     while(1):
         value = client.read() # Scale Output in grams
